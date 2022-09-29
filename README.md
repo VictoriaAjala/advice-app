@@ -41,8 +41,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-![index](https://user-images.githubusercontent.com/102407780/193020089-32760649-fffd-4d8c-a182-905145876266.jpg)
-
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
@@ -70,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![index](https://user-images.githubusercontent.com/102407780/193020089-32760649-fffd-4d8c-a182-905145876266.jpg)
