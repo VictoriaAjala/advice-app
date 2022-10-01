@@ -1,4 +1,4 @@
-import React from "react";
+import React, { component } from "react";
 import axios from "axios";
 
 import "./App.css";
@@ -11,8 +11,9 @@ class App extends React.Component {
   }
 
   fetchAdvice = () => {
+    const random = Math.trunc(Math.random() * 150);
     axios
-      .get("https://api.adviceslip.com/advice")
+      .get(`https://api.adviceslip.com/advice/${random}`)
       .then((response) => {
         const { advice } = response.data.slip;
 
@@ -24,11 +25,10 @@ class App extends React.Component {
   };
 
   render() {
-    const { advice } = this.state;
     return (
       <div className="app">
         <div className="card">
-          <h1 className="heading">{advice}</h1>
+          <h1 className="heading">{this.state.advice}</h1>
           <button className="button" onClick={this.fetchAdvice}>
             <span>GIVE ME ADVICE!</span>
           </button>
