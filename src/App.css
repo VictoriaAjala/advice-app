@@ -32,13 +32,17 @@ body {
   border-radius: 25px;
   padding: 2%;
   box-shadow: 10px 10px;
+  text-align: center;
 }
 
 .heading {
-  display: flex;
+  display: block;
   align-items: center;
   height: 580px;
   font-family: "Abyssinica SIL", serif;
+  font-size: 20px;
+  height: auto;
+  position: relative;
 }
 
 .button {
