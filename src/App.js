@@ -11,12 +11,12 @@ class App extends React.Component {
   }
 
   fetchAdvice = () => {
-    const random = Math.trunc(Math.random() * 150);
+    const random = Math.trunc(Math.random() * 300);
     axios
       .get(`https://api.adviceslip.com/advice/${random}`)
       .then((response) => {
         const { advice } = response.data.slip;
-
+        console.log(random);
         this.setState({ advice });
       })
       .catch((error) => {
