@@ -1,4 +1,3 @@
-import React, { component } from "react";
 import axios from "axios";
 
 import "./App.css";
