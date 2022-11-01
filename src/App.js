@@ -2,7 +2,7 @@ import axios from "axios";
 
 import "./App.css";
 
-class App extends React.Component {
+class App  {
   state = { advice: "" };
 
   componentDidMount() {
